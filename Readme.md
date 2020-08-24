@@ -14,7 +14,7 @@ Below are scripts that answer questions from <a href="https://www.leetcode.com">
 ## CS50: Movies
 ---------------
 
-|Specification          | Solution
+|Specification          | Answer
 |------------------|-----------------|
 | [CS50 Movies & IMDB](https://cs50.harvard.edu/x/2020/psets/7/movies/#specification) | [Solutions](https://github.com/dougweltman/SQL-exercises/tree/master/CS50-Movies) |
 
@@ -22,7 +22,7 @@ Below are scripts that answer questions from <a href="https://www.leetcode.com">
 ## LeetCode
 ---------------
 
-|Specification          | Solution
+|Specification          | Answer
 |------------------|-----------------|
 | [Second-Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/LeetCode/Second%20Highest%20Salary) |
 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/LeetCode/Combine%20Two%20Tables) |

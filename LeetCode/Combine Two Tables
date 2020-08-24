@@ -1,0 +1,10 @@
+/*
+From https://leetcode.com/problems/combine-two-tables/
+*/
+
+SELECT
+    person.FirstName as FirstName,
+    person.LastName as LastName,
+    Address.City as City,
+    Address.State as State
+FROM person LEFT JOIN Address ON person.PersonId = Address.PersonId

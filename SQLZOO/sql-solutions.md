@@ -13,6 +13,7 @@
 
 ## SELECT basics
 Available [here](https://sqlzoo.net/wiki/SELECT_basics)
+
 1.
 ```sql
 SELECT population FROM world

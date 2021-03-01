@@ -11,7 +11,7 @@
 8. [Using NULL)(#using-null)
 9. [Self JOIN](#self-join)
 
-## SELECT basics
+### SELECT basics
 Available [here](https://sqlzoo.net/wiki/SELECT_basics)
 
 1.
@@ -30,7 +30,7 @@ SELECT name, area FROM world
   WHERE area BETWEEN 200000 AND 250000;
 ```
 
-## SELECT from world
+### SELECT from world
 Available [here](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial)
 
 1.

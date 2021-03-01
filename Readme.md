@@ -7,7 +7,7 @@ Below are scripts that answer questions from <a href="https://www.leetcode.com">
 | Specification          |Answer       |
 |-------------------|-----------------:|
 | [Weather Observation Station 5](https://www.hackerrank.com/challenges/weather-observation-station-5) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/HackerRank/Weather%20Observation%20Station%205) |
-| [Asian Population](https://www.hackerrank.com/challenges/asian-population) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/HackerRank/Asian%20Population) |
+| [Asian Population](https://www.hackerrank.com/challenges/asian-population) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/HackerRank/Asian%20Population) 
 | [Top Earners](https://www.hackerrank.com/challenges/earnings-of-employees) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/HackerRank/Top%20Earners) |
 
 
@@ -25,6 +25,6 @@ Below are scripts that answer questions from <a href="https://www.leetcode.com">
 |Specification          | Answer
 |------------------|-----------------|
 | [Second-Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/LeetCode/Second%20Highest%20Salary) |
-| [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/LeetCode/Combine%20Two%20Tables) |
+| [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/LeetCode/Combine%20Two%20Tables) 
 | [Employees earning more than their managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/LeetCode/Employees%20earning%20more%20than%20their%20managers) |
 | [Customers who never order](https://leetcode.com/problems/customers-who-never-order/) | [Solution](https://github.com/dougweltman/SQL-exercises/blob/master/LeetCode/Customers%20who%20never%20order) |

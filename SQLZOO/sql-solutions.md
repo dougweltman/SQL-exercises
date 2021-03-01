@@ -4,7 +4,7 @@
 1. [SELECT basics](#select-basics)
 2. [SELECT from world](#select-from-world)
 3. [SELECT from nobel](#select-from-nobel)
-4. [SELECT in SELECT](#select-in-select)
+4. [SELECT within SELECT](#select-within-select)
 5. [SUM and COUNT](#sum-and-count)
 6. [JOIN](#join)
 7. [More JOIN](#more-join)
@@ -191,7 +191,7 @@ WHERE winner LIKE 'sir%'
 ORDER BY yr desc, winner;
 ```
 
-## SELECT from SELECT
+## SELECT within SELECT
 Available [here](https://sqlzoo.net/wiki/SELECT_within_SELECT_Tutorial)
 
 1. 

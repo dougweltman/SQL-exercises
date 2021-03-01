@@ -190,3 +190,54 @@ SELECT winner, yr, subject FROM nobel
 WHERE winner LIKE 'sir%'
 ORDER BY yr desc, winner;
 ```
+
+## SELECT from SELECT
+Available [here](https://sqlzoo.net/wiki/SELECT_within_SELECT_Tutorial)
+
+1. 
+```sql
+SELECT name FROM world
+  WHERE population >
+     (SELECT population FROM world
+      WHERE name='Russia');
+```
+
+2.
+```sql
+SELECT name FROM world
+WHERE gdp/population >
+(SELECT gdp/population from world
+WHERE name = 'United Kingdom')
+AND continent = 'Europe'
+```
+
+3.
+```sql
+Select name, continent from world
+where continent in
+(select continent from world where name in ('Argentina', 'Australia'))
+order by name
+```
+
+4.
+```sql
+select name, population from world
+where population >
+(Select population from world where name = 'Canada')
+AND population <
+(select population from world where name = 'Poland')
+```
+
+5.
+```sql
+SELECT name, CONCAT(
+ROUND(100* population/(SELECT population FROM world WHERE name = 'Germany'), 0),
+'%')
+FROM world WHERE continent = 'europe'
+```
+
+6.
+```sql
+select name from world where gdp >
+(select max(gdp) from world where continent = 'Europe')
+```

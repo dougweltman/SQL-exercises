@@ -1,0 +1,16 @@
+/*
+From https://leetcode.com/problems/employees-earning-more-than-their-managers/
+*/
+
+SELECT Name as Employee from
+    #gives us the manager IDs and the emp Salaries.
+    (SELECT Name, id, salary, managerId
+    FROM employee emp
+    WHERE emp.salary >
+        
+        # gives the manager salaries
+        (SELECT salary
+        FROM employee man
+        WHERE id = emp.managerId))
+    AS ManEmp
+        
